@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exoplanet Detection Methods</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon1.png">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sigmar&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top" style="background-color: #003366;">
+        <div class="container-fluid">
+            <a class="navbar-brand logo mx-auto navbar-text" href="index.html">
+                <img src="images/logo1.png" alt="Logo" style="height: 50px;">
+            </a>
+            <a class="navbar-brand ms-3 text-white" href="index.html" style="font-family: 'Sigmar', serif; font-weight: 700; font-size: 36px;">
+                The Astrophysics Portal
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item dropdown">
+                        <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                            Sections
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <li><a class="dropdown-item" href="index.html">Home</a></li>
+                            <li><a class="dropdown-item" href="exoplanet.html">Exoplanet Detection Methods</a></li>
+                            <li><a class="dropdown-item" href="stellar.html">Stellar Classification</a></li>
+                            <li><a class="dropdown-item" href="galaxy.html">Galactic Evolution</a></li>
+                            <li><a class="dropdown-item" href="darkmatter.html">Dark Matter</a></li>
+                            <li><a class="dropdown-item" href="blackhole.html">Black Hole Star</a></li>
+                            <li><a class="dropdown-item" href="cosmology.html">Cosmological Models: Big Bang Theory</a></li>
+                            <li><a class="dropdown-item" href="supernova.html">Supernova Explosions</a></li>
+                        </ul>
+                    </li>
+                </ul>                <form class="d-flex ms-3" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" id="search-input">
+                    <button class="btn btn-outline-light" type="submit">Search</button>
+                </form>
+
+            </div>
+        </div>
+    </nav>
+    <!-- Content -->
+    <section class="container mt-5">
+        <h1>Black Hole Star</h1>
+        <p><strong>Black hole star</strong> is a term used to describe a star that is on the brink of collapsing into a black hole. When a massive star runs out of nuclear fuel, its core can no longer support the weight of the outer layers, causing the star to collapse under its own gravity. If the core's mass exceeds a certain limit, the collapse leads to the formation of a <strong>black hole</strong>, a region of space where gravity is so strong that not even light can escape. The process of stellar collapse that leads to a black hole is known as a <strong>supernova explosion</strong>. These events are some of the most violent and energetic in the universe, and they release vast amounts of energy. Black holes are often classified into different categories based on their size, with stellar-mass black holes being the remnants of individual stars, and supermassive black holes found at the centers of most galaxies, including our own Milky Way.</p>
+    </section>
+
+    <!-- Quiz Section -->
+    <section class="container mt-5">
+        <h1>Black Hole Star Quiz</h1>
+        <form id="quiz-form">
+        
+            <!-- Question 1 -->
+        <div class="mb-3">
+            <label for="question1" class="form-label">1. What happens when a massive star runs out of nuclear fuel?</label>
+            <div>
+                <input type="radio" name="question1" value="A"> It becomes a white dwarf<br>
+                <input type="radio" name="question1" value="B"> It explodes into a supernova<br>
+                <input type="radio" name="question1" value="C"> It collapses into a black hole<br>
+                <input type="radio" name="question1" value="D"> It expands into a red giant<br>
+            </div>
+        </div>
+
+        <!-- Question 2 -->
+        <div class="mb-3">
+            <label for="question2" class="form-label">2. What is the event that leads to the formation of a black hole?</label>
+            <div>
+                <input type="radio" name="question2" value="A"> Supernova explosion<br>
+                <input type="radio" name="question2" value="B"> Planetary nebula formation<br>
+                <input type="radio" name="question2" value="C"> Stellar fusion<br>
+                <input type="radio" name="question2" value="D"> Hydrogen fusion<br>
+            </div>
+        </div>
+
+        <!-- Question 3 -->
+        <div class="mb-3">
+            <label for="question3" class="form-label">3. What type of black hole results from the collapse of a massive star?</label>
+            <div>
+                <input type="radio" name="question3" value="A"> Stellar-mass black hole<br>
+                <input type="radio" name="question3" value="B"> Supermassive black hole<br>
+                <input type="radio" name="question3" value="C"> Intermediate-mass black hole<br>
+                <input type="radio" name="question3" value="D"> Primordial black hole<br>
+            </div>
+        </div>
+
+        <!-- Question 4 -->
+        <div class="mb-3">
+            <label for="question4" class="form-label">4. What is a supernova explosion?</label>
+            <div>
+                <input type="radio" name="question4" value="A"> A massive solar flare<br>
+                <input type="radio" name="question4" value="B"> The death of a star that results in a huge release of energy<br>
+                <input type="radio" name="question4" value="C"> The formation of a neutron star<br>
+                <input type="radio" name="question4" value="D"> A sudden increase in star brightness<br>
+            </div>
+        </div>
+
+        <!-- Question 5 -->
+        <div class="mb-3">
+            <label for="question5" class="form-label">5. What is the role of supernovae in the formation of black holes?</label>
+            <div>
+                <input type="radio" name="question5" value="A"> They prevent black holes from forming<br>
+                <input type="radio" name="question5" value="B"> They create the necessary conditions for black hole formation<br>
+                <input type="radio" name="question5" value="C"> They absorb all light and prevent observation<br>
+                <input type="radio" name="question5" value="D"> They collapse into neutron stars instead<br>
+            </div>
+        </div>
+
+
+            <button type="submit" class="btn btn-primary">Submit Quiz</button>
+        </form>
+
+        <!-- Result Display -->
+        <div id="quiz-results" class="mt-4"></div>
+        <!-- Progress Bar -->
+        <!-- Add this below your quiz form to show the warning -->
+        <div id="warning-message" class="mt-3 text-danger" style="display:none;">
+            <p>Please answer all the questions before submitting the quiz.</p>
+        </div>
+        <div class="progress mt-3">
+            <div id="quiz-progress-bar" class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer text-white text-center py-4" style="background-color: #003366;">
+        <p class="footer-paragraph">&copy; 2025 The Astrophysics Portal.</p>
+        <p class="footer-paragraph">An MYP Personal Project.</p>
+        <img class="footer-icon" src="images/instagram.png" alt="instagram">
+        <img class="footer-icon" src="images/linkedin.png" alt="linkedin">
+        <img class="footer-icon" src="images/whatsapp.png" alt="whatsapp">
+        <img class="footer-icon" src="images/tiktok.png" alt="tiktok">
+        <img class="footer-icon" src="images/snapchat.png" alt="snapchat">
+    </footer>
+    <!-- JavaScript -->
+    <script src="blackholescripts.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

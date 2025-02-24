@@ -1,0 +1,213 @@
+/* General Styles */
+body {
+    font-family: 'Montserrat', sans-serif; 
+    background-color: #f0f4f8; 
+    color: #333;
+    background-image: url('https://images.pexels.com/photos/956981/milky-way-starry-sky-night-sky-star-956981.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+    background-size: cover;
+    background-position: center center; 
+    background-attachment: fixed; 
+}
+
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    margin: 0 0 20px 0;
+}
+
+
+/* Navbar Styles */
+.navbar {
+    background-color: #003366;
+    padding: 0.8rem 1.2rem;
+}
+
+.navbar-brand {
+    color: white;
+    text-align: center;
+    font-family: 'Oswald', serif; 
+    font-weight: 700;
+    font-size: 1.6rem;
+}
+#navbarNav {
+    font-family: 'Montserrat', sans-serif; 
+}
+
+/* Collapsed Navbar Styles */
+@media (max-width: 991px) {
+    .navbar-collapse {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 10px; 
+    }
+
+    .navbar-nav {
+        width: 100%;
+        margin-bottom: 10px; 
+    }
+
+    .navbar-nav .nav-item {
+        margin-bottom: 10px; 
+    }
+
+    .navbar-collapse form {
+        width: 100%;
+        display: flex;
+        margin-top: 10px;
+    }
+
+    .navbar-collapse .form-control {
+        max-width: 300px; 
+        width: 100%;
+    }
+
+    .navbar-collapse .btn-outline-light {
+        margin-left: 10px;
+    }
+
+    #dropdownMenuButton {
+        border: none; /* Removes the border */
+    }
+    
+    #dropdownMenuButton:hover {
+        background-color: transparent; /* Optional: Keeps the background transparent on hover */
+    }
+    
+}
+
+/* Content */
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Quiz Result Color Boxes */
+#quiz-results {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    color: white;
+}
+
+/* General Navbar Styles */
+.navbar {
+    background-color: #003366; /* Dark Blue */
+    padding: 1.2rem 1.2rem 1.2rem 1.2rem;
+}
+
+.navbar .navbar-brand {
+    font-weight: 700;
+    font-size: 1.6rem;
+}
+
+.navbar .logo {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    transform: scale(2); 
+}
+.navbar .navbar-nav .nav-link {
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.navbar-nav .nav-item.dropdown .btn {
+    font-family: 'Montserrat', sans-serif; 
+}
+
+/* Dropdown Button */
+.dropdown .dropdown-toggle {
+    background-color: #003366;
+    border: 2px solid #fff; 
+    color: #fff; 
+    padding: 8px 16px; 
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 5px; 
+}
+
+.dropdown .dropdown-toggle:hover {
+    background-color: #00508b; 
+    border-color: #fff;
+}
+
+.dropdown .dropdown-menu {
+    background-color: #003366;
+    border: none;
+    border-radius: 5px; 
+}
+
+.dropdown .dropdown-item {
+    color: #fff; 
+    font-size: 14px;
+    padding: 10px 20px;
+}
+
+.dropdown .dropdown-item:hover {
+    background-color: #00508b; 
+    color: #fff;
+}
+
+/* Media Query for Mobile */
+@media (max-width: 768px) {
+    .navbar-nav {
+        text-align: center;
+    }
+}
+
+/*Quiz */
+form .form-check {
+    margin-bottom: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+#result {
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif; 
+}
+
+/* Footer */
+footer {
+    background-color: #003366;
+    color: white;
+    margin-top: 50px;
+    padding: 0.8rem 1.2rem;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif; 
+}
+
+.footer-paragraph {
+    margin-bottom: 3px;
+}
+
+.footer-icon {
+    height: 20px;
+    width: 20px;
+    display: inline-flex;
+    margin: 5px 5px 0px 5px;
+}
+#warning-message {
+    font-weight: bold;
+}
+
+#quiz-progress-bar {
+    height: 30px;
+    transition: width 0.5s ease-in-out;
+}
+
+@media (max-width: 1100px) {
+    .navbar .navbar-brand.logo {
+        display: none;
+    }
+}

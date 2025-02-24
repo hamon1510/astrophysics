@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exoplanet Detection Methods</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon1.png">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sigmar&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top" style="background-color: #003366;">
+        <div class="container-fluid">
+            <!-- Logo in the Center -->
+            <a class="navbar-brand logo mx-auto navbar-text" href="index.html">
+                <img src="images/logo1.png" alt="Logo" style="height: 50px;">
+            </a>
+
+            <!-- Title in the Navbar (Left-aligned) -->
+            <a class="navbar-brand ms-3 text-white" href="index.html" style="font-family: 'Sigmar', serif; font-weight: 700; font-size: 36px;">
+                The Astrophysics Portal
+            </a>
+
+            <!-- Toggle button for mobile -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Dropdown menu for sections -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item dropdown">
+                        <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                            Sections
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <li><a class="dropdown-item" href="index.html">Home</a></li>
+                            <li><a class="dropdown-item" href="exoplanet.html">Exoplanet Detection Methods</a></li>
+                            <li><a class="dropdown-item" href="stellar.html">Stellar Classification</a></li>
+                            <li><a class="dropdown-item" href="galaxy.html">Galactic Evolution</a></li>
+                            <li><a class="dropdown-item" href="darkmatter.html">Dark Matter</a></li>
+                            <li><a class="dropdown-item" href="blackhole.html">Black Hole Star</a></li>
+                            <li><a class="dropdown-item" href="cosmology.html">Cosmological Models: Big Bang Theory</a></li>
+                            <li><a class="dropdown-item" href="supernova.html">Supernova Explosions</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <!-- Search Bar in the Navbar -->
+                <form class="d-flex ms-3" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" id="search-input">
+                    <button class="btn btn-outline-light" type="submit">Search</button>
+                </form>
+
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Content for Exoplanet Detection -->
+    <section class="container mt-5">
+        <h1>Supernova Explosions</h1>
+        <p><strong>Supernova Explosions</strong> are catastrophic events that mark the end of a star's life cycle, occurring when a star’s core collapses under gravity after exhausting its nuclear fuel. There are two main types of supernovae: <strong>Type I</strong>, which occur in binary star systems when a white dwarf accretes matter from a companion star until it reaches a critical mass, and <strong>Type II</strong>, which occur in massive stars when their core collapses after the star runs out of fuel. Supernova explosions release an enormous amount of energy, outshining entire galaxies for a short time, and dispersing heavy elements into the interstellar medium. These elements, such as carbon, oxygen, and iron, are essential for the formation of planets and life. Supernovae are also responsible for creating the conditions necessary for the formation of black holes, which can result from the collapse of the most massive stars.</p>
+    </section>
+
+    <!-- Quiz Section -->
+    <section class="container mt-5">
+        <h1>Supernova Explosion Quiz</h1>
+        <form id="quiz-form">
+        
+        <!-- Question 1 -->
+        <div class="mb-3">
+            <label for="question1" class="form-label">1. What marks the end of a star’s life cycle in a supernova explosion?</label>
+            <div>
+                <input type="radio" name="question1" value="A"> The formation of a black hole<br>
+                <input type="radio" name="question1" value="B"> The collapse of the star’s core<br>
+                <input type="radio" name="question1" value="C"> The star’s surface burning up<br>
+                <input type="radio" name="question1" value="D"> The star expanding into a red giant<br>
+            </div>
+        </div>
+
+    <!-- Question 2 -->
+    <div class="mb-3">
+        <label for="question2" class="form-label">2. What is released during a supernova explosion?</label>
+        <div>
+                <input type="radio" name="question2" value="A"> Only light<br>
+                <input type="radio" name="question2" value="B"> Heavy elements like carbon, oxygen, and iron<br>
+                <input type="radio" name="question2" value="C"> Dark matter<br>
+                <input type="radio" name="question2" value="D"> Neutron particles<br>
+            </div>
+        </div>
+
+        <!-- Question 3 -->
+        <div class="mb-3">
+            <label for="question3" class="form-label">3. What are the two main types of supernovae?</label>
+            <div>
+                <input type="radio" name="question3" value="A"> Type I and Type II<br>
+                <input type="radio" name="question3" value="B"> Type A and Type B<br>
+                <input type="radio" name="question3" value="C"> Red and Blue<br>
+                <input type="radio" name="question3" value="D"> Solar and Stellar<br>
+            </div>
+        </div>
+
+        <!-- Question 4 -->
+        <div class="mb-3">
+            <label for="question4" class="form-label">4. What is the key feature of Type II supernovae?</label>
+            <div>
+                <input type="radio" name="question4" value="A"> They occur in binary star systems<br>
+                <input type="radio" name="question4" value="B"> They occur when a white dwarf reaches a critical mass<br>
+                <input type="radio" name="question4" value="C"> They occur when a massive star’s core collapses<br>
+                <input type="radio" name="question4" value="D"> They occur when a neutron star forms<br>
+            </div>
+        </div>
+
+        <!-- Question 5 -->
+        <div class="mb-3">
+            <label for="question5" class="form-label">5. What role do supernovae play in the formation of planets?</label>
+            <div>
+                <input type="radio" name="question5" value="A"> They create planets directly<br>
+                <input type="radio" name="question5" value="B"> They release elements necessary for planet formation<br>
+                <input type="radio" name="question5" value="C"> They cause planets to collide<br>
+                <input type="radio" name="question5" value="D"> They prevent the formation of planets<br>
+            </div>
+        </div>
+
+
+            <button type="submit" class="btn btn-primary">Submit Quiz</button>
+        </form>
+
+        <!-- Result Display -->
+        <div id="quiz-results" class="mt-4"></div>
+        <!-- Progress Bar -->
+        <!-- Add this below your quiz form to show the warning -->
+        <div id="warning-message" class="mt-3 text-danger" style="display:none;">
+            <p>Please answer all the questions before submitting the quiz.</p>
+        </div>
+        <div class="progress mt-3">
+            <div id="quiz-progress-bar" class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer text-white text-center py-4" style="background-color: #003366;">
+        <p class="footer-paragraph">&copy; 2025 The Astrophysics Portal.</p>
+        <p class="footer-paragraph">An MYP Personal Project.</p>
+        <img class="footer-icon" src="images/instagram.png" alt="instagram">
+        <img class="footer-icon" src="images/linkedin.png" alt="linkedin">
+        <img class="footer-icon" src="images/whatsapp.png" alt="whatsapp">
+        <img class="footer-icon" src="images/tiktok.png" alt="tiktok">
+        <img class="footer-icon" src="images/snapchat.png" alt="snapchat">
+    </footer>
+    <!-- JavaScript -->
+    <script src="supernovascripts.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

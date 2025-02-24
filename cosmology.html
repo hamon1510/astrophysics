@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exoplanet Detection Methods</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon1.png">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sigmar&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top" style="background-color: #003366;">
+        <div class="container-fluid">
+            <!-- Logo in the Center -->
+            <a class="navbar-brand logo mx-auto navbar-text" href="index.html">
+                <img src="images/logo1.png" alt="Logo" style="height: 50px;">
+            </a>
+
+            <!-- Title in the Navbar (Left-aligned) -->
+            <a class="navbar-brand ms-3 text-white" href="index.html" style="font-family: 'Sigmar', serif; font-weight: 700; font-size: 36px;">
+                The Astrophysics Portal
+            </a>
+
+            <!-- Toggle button for mobile -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Dropdown menu for sections -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item dropdown">
+                        <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                            Sections
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <li><a class="dropdown-item" href="index.html">Home</a></li>
+                            <li><a class="dropdown-item" href="exoplanet.html">Exoplanet Detection Methods</a></li>
+                            <li><a class="dropdown-item" href="stellar.html">Stellar Classification</a></li>
+                            <li><a class="dropdown-item" href="galaxy.html">Galactic Evolution</a></li>
+                            <li><a class="dropdown-item" href="darkmatter.html">Dark Matter</a></li>
+                            <li><a class="dropdown-item" href="blackhole.html">Black Hole Star</a></li>
+                            <li><a class="dropdown-item" href="cosmology.html">Cosmological Models: Big Bang Theory</a></li>
+                            <li><a class="dropdown-item" href="supernova.html">Supernova Explosions</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <!-- Search Bar in the Navbar -->
+                <form class="d-flex ms-3" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" id="search-input">
+                    <button class="btn btn-outline-light" type="submit">Search</button>
+                </form>
+
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Content for Exoplanet Detection -->
+    <section class="container mt-5">
+        <h1>Cosmological Models: Big Bang Theory</h1>
+        <p><strong>The Big Bang Theory</strong> is the prevailing model explaining the origin and evolution of the universe. According to the Big Bang Theory, the universe began as an infinitely small, hot, and dense point about 13.8 billion years ago, and has been expanding ever since. This expansion is supported by several key observations, including the <strong>cosmic microwave background radiation</strong>, which is the afterglow of the Big Bang, and the redshift of galaxies, which indicates that the universe is still expanding. The Big Bang Theory also predicts the formation of light elements such as hydrogen, helium, and lithium during the first few minutes of the universe's existence, and the subsequent formation of stars, galaxies, and larger structures. Over time, the expansion of the universe has slowed and continues to evolve, with current research focusing on understanding the role of dark energy, which is believed to be responsible for the accelerated expansion of the universe.</p>
+    </section>
+
+    <!-- Quiz Section -->
+    <section class="container mt-5">
+        <h1>Cosmological Models Quiz</h1>
+        <form id="quiz-form">
+            
+        <!-- Question 1 -->
+        <div class="mb-3">
+            <label for="question1" class="form-label">1. What does the Big Bang Theory explain?</label>
+            <div>
+                <input type="radio" name="question1" value="A"> The formation of black holes<br>
+                <input type="radio" name="question1" value="B"> The origin and evolution of the universe<br>
+                <input type="radio" name="question1" value="C"> The motion of galaxies<br>
+                <input type="radio" name="question1" value="D"> The creation of stars<br>
+            </div>
+        </div>
+
+        <!-- Question 2 -->
+        <div class="mb-3">
+            <label for="question2" class="form-label">2. What evidence supports the Big Bang Theory?</label>
+            <div>
+                <input type="radio" name="question2" value="A"> Cosmic microwave background radiation<br>
+                <input type="radio" name="question2" value="B"> The discovery of dark matter<br>
+                <input type="radio" name="question2" value="C"> The movement of stars in galaxies<br>
+                <input type="radio" name="question2" value="D"> Gravitational waves<br>
+            </div>
+        </div>
+
+        <!-- Question 3 -->
+        <div class="mb-3">
+            <label for="question3" class="form-label">3. What does the redshift of galaxies indicate?</label>
+            <div>
+                <input type="radio" name="question3" value="A"> The galaxies are moving towards us<br>
+                <input type="radio" name="question3" value="B"> The universe is expanding<br>
+                <input type="radio" name="question3" value="C"> The galaxies are slowing down<br>
+                <input type="radio" name="question3" value="D"> The universe is contracting<br>
+            </div>
+        </div>
+
+        <!-- Question 4 -->
+        <div class="mb-3">
+            <label for="question4" class="form-label">4. What was formed during the first few minutes of the universe according to the Big Bang Theory?</label>
+            <div>
+                <input type="radio" name="question4" value="A"> Planets and moons<br>
+                <input type="radio" name="question4" value="B"> Light elements like hydrogen and helium<br>
+                <input type="radio" name="question4" value="C"> Supernovae<br>
+                <input type="radio" name="question4" value="D"> Stars and galaxies<br>
+            </div>
+        </div>  
+
+        <!-- Question 5 -->
+        <div class="mb-3">
+            <label for="question5" class="form-label">5. What has the expansion of the universe led to?</label>
+            <div>
+                <input type="radio" name="question5" value="A"> Formation of new black holes<br>
+                <input type="radio" name="question5" value="B"> Accelerated growth of stars<br>
+                <input type="radio" name="question5" value="C"> The creation of dark matter<br>
+                <input type="radio" name="question5" value="D"> The slowing down of the universe’s expansion<br>
+            </div>
+        </div>
+
+
+            <button type="submit" class="btn btn-primary">Submit Quiz</button>
+        </form>
+
+        <!-- Result Display -->
+        <div id="quiz-results" class="mt-4"></div>
+        <!-- Progress Bar -->
+        <!-- Add this below your quiz form to show the warning -->
+        <div id="warning-message" class="mt-3 text-danger" style="display:none;">
+            <p>Please answer all the questions before submitting the quiz.</p>
+        </div>
+        <div class="progress mt-3">
+            <div id="quiz-progress-bar" class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer text-white text-center py-4" style="background-color: #003366;">
+        <p class="footer-paragraph">&copy; 2025 The Astrophysics Portal.</p>
+        <p class="footer-paragraph">An MYP Personal Project.</p>
+        <img class="footer-icon" src="images/instagram.png" alt="instagram">
+        <img class="footer-icon" src="images/linkedin.png" alt="linkedin">
+        <img class="footer-icon" src="images/whatsapp.png" alt="whatsapp">
+        <img class="footer-icon" src="images/tiktok.png" alt="tiktok">
+        <img class="footer-icon" src="images/snapchat.png" alt="snapchat">
+    </footer>
+    <!-- JavaScript -->
+    <script src="cosmologyscripts.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
