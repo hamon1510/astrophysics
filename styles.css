@@ -76,6 +76,9 @@ h1, h2, h3, h4, h5 {
         background-color: transparent; /* Optional: Keeps the background transparent on hover */
     }
     
+    #search-input {
+        align: center;
+    }
 }
 
 /* Content */
@@ -139,14 +142,14 @@ h1, h2, h3, h4, h5 {
 /* For mobile screens  */
 @media (max-width: 600px) {
     #title {
-        font-size: 20px; 
+        font-size: 24px; 
     }
 }
 
 /* For very small mobile screens */
 @media (max-width: 400px) {
     #title {
-        font-size: 14px;
+        font-size: 20px;
     }
 }
 
