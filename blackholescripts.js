@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
         event.preventDefault();
         
         let score = 0;
-        const correctAnswers = ['B', 'B', 'A', 'B', 'B'];
+        const correctAnswers = ['B', 'B', 'B', 'A', 'D'];
         const userAnswers = [];
         let allAnswered = true;  // Flag to check if all questions are answered
 

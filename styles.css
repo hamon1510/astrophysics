@@ -121,6 +121,36 @@ h1, h2, h3, h4, h5 {
     font-family: 'Montserrat', sans-serif; 
 }
 
+
+#title {
+    font-family: 'Sigmar', serif; 
+    font-weight: 700; 
+    font-size: 36px
+
+}
+
+
+/* For tablets and smaller screens */
+@media (max-width: 768px) {
+    #title {
+        font-size: 30px; 
+    }
+}
+
+/* For mobile screens  */
+@media (max-width: 600px) {
+    #title {
+        font-size: 24px; 
+    }
+}
+
+/* For very small mobile screens */
+@media (max-width: 400px) {
+    #title {
+        font-size: 20px;
+    }
+}
+
 /* Dropdown Button */
 .dropdown .dropdown-toggle {
     background-color: #003366;
