@@ -145,9 +145,14 @@ h1, h2, h3, h4, h5 {
 /* For very small mobile screens */
 @media (max-width: 400px) {
     #title {
-        font-size: 12px;
+      display: none; 
+    }
+  
+    #text-small {
+      display: block; /* Show alternative text */
     }
 }
+
 
 /* Dropdown Button */
 .dropdown .dropdown-toggle {
