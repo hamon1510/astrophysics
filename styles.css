@@ -75,11 +75,6 @@ h1, h2, h3, h4, h5 {
     #dropdownMenuButton:hover {
         background-color: transparent; /* Optional: Keeps the background transparent on hover */
     }
-    
-    #search-input {
-        margin-left: 0;
-        margin-right: 0;
-    }
 }
 
 /* Content */
