@@ -149,7 +149,8 @@ h1, h2, h3, h4, h5 {
     }
   
     #text-small {
-      display: block; /* Show alternative text */
+      display: block; 
+      font-size: 24px;
     }
 }
 
