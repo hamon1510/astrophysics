@@ -135,21 +135,21 @@ h1, h2, h3, h4, h5 {
 /* For tablets and smaller screens */
 @media (max-width: 768px) {
     #title {
-        font-size: 30px; 
+        font-size: 40px; 
     }
 }
 
 /* For mobile screens  */
 @media (max-width: 600px) {
     #title {
-        font-size: 24px; 
+        font-size: 30px; 
     }
 }
 
 /* For very small mobile screens */
 @media (max-width: 400px) {
     #title {
-        font-size: 16px;
+        font-size: 20px;
     }
 }
 
